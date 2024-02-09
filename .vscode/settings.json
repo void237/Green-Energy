@@ -1,3 +1,4 @@
 {
-    "codegpt.apiKey": "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"
+    "codegpt.apiKey": "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",
+    "codegpt.model": "ChatGPT"
 }
