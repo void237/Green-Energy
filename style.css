@@ -1,0 +1,95 @@
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #41485f;
+}
+
+header {
+    background: linear-gradient(rgba(51, 150, 92, 0.8), rgba(27, 170, 86, 0.8));
+    background-size: cover;
+    padding: 40px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+nav {
+    background-color: #071722;
+    padding: 15px 0;
+    text-align: center;
+    color: #fff;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 20px;
+}
+
+nav a:hover {
+    color: #15d866a9;
+}
+
+section {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #2ecc71;
+}
+
+h3 {
+    color: #3498db;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.homeowner-tools {
+    background: rgba(46, 204, 113, 0.2);
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.homeowner-tools h3 {
+    color: #2ecc71;
+    margin-bottom: 10px;
+}
+
+.homeowner-tools ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.homeowner-tools li {
+    margin-bottom: 8px;
+}
+.header-container {
+    position: relative;
+}
+

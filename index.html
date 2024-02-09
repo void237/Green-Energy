@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Home Solutions </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/charts.css/dist/charts.min.css">
+        <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header>
+            <h1>Green Solutions </h1>
+        <p>Your guide to sustainable living</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Green Living </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="energy-efficiency.html">Energy Efficiency</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="government-incentives.html">Government Incentives</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tips-and-practices.html">Tips and Practices</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="resources.html">Resources</a>
+                </li>
+                           </ul>
+        </div>
+    </nav>
+
+   <section>
+    <h2>Overview</h2>
+    <h3>What is Environment Efficiency</h3>
+    <p>A management strategy of doing more with less</p>
+   </section>
+   <section>
+<h3>Statistics</h3>
+
+<head>
+<script type="text/javascript">
+window.onload = function () {
+	var chart = new CanvasJS.Chart("chartContainer",
+	{
+		theme: "light2",
+		title:{
+			text: "Enviromental Stats"
+		},		
+		data: [
+		{       
+			type: "pie",
+			showInLegend: true,
+			toolTipContent: "{y} - #percent %",
+			yValueFormatString: "#,##0,,.## Million",
+			legendText: "{indexLabel}",
+			dataPoints: [
+				{  y: 4181563, indexLabel: "1" },
+				{  y: 2175498, indexLabel: "2" },
+				{  y: 3125844, indexLabel: "3" },
+				{  y: 1176121, indexLabel: "4"},
+				{  y: 1727161, indexLabel: "5" },
+				{  y: 4303364, indexLabel: "6"},
+				{  y: 1717786, indexLabel: "7"}
+			]
+		}
+		]
+	});
+	chart.render();
+}
+</script>
+<script type="text/javascript" src="https://cdn.canvasjs.com/canvasjs.min.js"></script></head>
+<body>
+<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+   </section>
+   
+   
+
+       
+        
+
+    <!-- Repeat similar sections for other categories -->
+
+    <footer>
+        
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
